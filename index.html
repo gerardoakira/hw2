@@ -6,21 +6,49 @@
     <meta name="keywords" content="Ascalapha, Corporate Gifts, Social Impact, Handcrafts">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ascalapha | Home</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Ascalapha Mexico <img src="logo.png" width="10%" height="10%"> </h1>
-    <h3><a href="aboutus.html">About Us</a></h3>
-    <h3><a href="products.html">Our Products</a></h3>
-    <h4>Contact Us</h4>
-    <ul>
-        <li> <em>Mail: </em> - <strong><a href = "mailto: hola@ascalapha.com">hola@ascalapha.com</a></strong> </li>
-        <hr>
-        <li> <em>Facebook</em> - <a href="https://www.facebook.com/ascalapha/"> <img src="FBlogo.jpg" width="2%" height="2%"></a></li>
-        <hr>
-        <li> <em>Instagram</em> - <a href="https://www.instagram.com/ascalapha/?hl=en"> <img src="IGlogo.jpg" width="2%" height="2%"></a> </li>
-        <hr>
-        <li> <em>Call: </em> - <strong>+52 55 3706 4020</strong></li>
-        <hr>
-    </ul>
+    <a href="index.html"> <img class="mx-auto w-48" src="logo.png"></a>
+    <h1 class="text-center font-bold text-6xl text-pink-600"> Ascalapha Mexico </h1>
+    
+
+    <div class="sm:flex m-10">
+        <div class="text-2xl text-pink-600 align-middle text-center sm:w-1/2 font-bold"><a  href="aboutus.html">About Us</a></div>
+        <div class="text-2xl text-pink-600 align-middle text-center sm:w-1/2 font-bold"><a  href="products.html">Our Products</a></div>
+    </div>
+
+    <div class="m-4 w-1/2 mx-auto">
+        <h1 class="px-4 py-4 bg-pink-600 text-center font-bold text-xl text-white"> Subscribe to our newsletter and learn about special offers and new products before anyone else!</h1>
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">Tell us your name</label>
+            <input class="p-2 w-64 border border-pink-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="name" name="name">
+        
+            <label class="block mt-4 font-bold" for="email">What's your email?</label>
+            <input class="p-2 w-64 border border-pink-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="email" name="email">
+            
+            <button class="block mt-4 text-white bg-pink-600 rounded px-4 py-2">Subscribe</button>
+        </form>
+    </div> 
+    
+
+        <h1 class="text-center font-bold text-5xl text-pink-600"> Contact Us </h1>
+      
+        <div class="sm:flex sm:space-y-0 space-y-4 mt-4">
+        <div class="align-middle text-center sm:w-1/4 font-bold">
+            Mail: <a href = "mailto: hola@ascalapha.com">hola@ascalapha.com</a>
+        </div>
+        <div class="align-middle text-center sm:w-1/4 font-bold">
+            Facebook<a href="https://www.facebook.com/ascalapha/"> <img class="mx-auto w-8" src="FBlogo.jpg"></a>
+        </div>
+        <div class="align-middle text-center sm:w-1/4 font-bold">
+            Instagram<a href="https://www.instagram.com/ascalapha/?hl=en"> <img class="mx-auto w-8" src="IGlogo.jpg"></a>
+        </div>
+        <div class="align-middle text-center sm:w-1/4 font-bold">
+            Call:+52 55 3706 4020
+        </div>
+        </div>
 </body>
 </html>
