@@ -4,5 +4,7 @@ Ascalapha works with indigenous communities in Mexico to support them by selling
 
 Ascalapha sells mostly gift kits that can me customized by the clients and also prepares special projects for brands, like limited editions.
 
-For more information go to https://ascalapha.com/
+For more information go to https://akira-hw2.netlify.app/
+
+
 
